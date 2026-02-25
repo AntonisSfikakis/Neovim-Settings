@@ -1,0 +1,26 @@
+# Neovim LSP Keybinds
+
+## Insert Mode
+jk          - LSP autocomplete (suggestions)
+
+## Normal Mode
+K               - Hover documentation (explain function/variable)
+gd              - Go to definition
+Space+ca        - Code actions (fix errors, refactor)
+Space+e         - Show error details (full message in popup)
+
+## Telescope
+Ctrl+p          - Find files (hidden files included)
+Alt+l           - Live grep (search in files)
+
+## Plugins Active
+- Mason: LSP server manager
+- clangd: C/C++ language server
+- pyright: Python language server  
+- lua_ls: Lua language server
+- Telescope UI Select: Better code action menu
+
+
+
+install in lsp 
+--in lsp config file put in .config and in enable kai sto mason
